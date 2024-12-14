@@ -1,0 +1,65 @@
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding-top: 5px;
+    color: white;
+    padding-right: 15px;
+    font: bold;
+}
+
+span{
+    color: chocolate;
+}
+
+
+.nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    /* padding: 30px; */
+}
+
+.nav ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.nav h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+}
+
+span{
+    color: chocolate;
+}
+
+.nav ul li a:hover{
+    text-decoration: px solid chocolate;
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.services{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    justify-content: end;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.services ul li{
+    text-decoration: none;
+    margin: 10px;
+    list-style: none;
+}
+
+.services a:hover{
+    color: orangered;
+
+}

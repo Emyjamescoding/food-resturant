@@ -1,0 +1,47 @@
+.body{
+    background-color: #333;
+    background: url(../img/laptops.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+main{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+ 
+main marquee{
+    font-size: 50px;
+    color: orangered;
+    padding-left: 400px;
+}
+
+main .but{
+    padding-left: 500px;
+}
+
+main .but button{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: chocolate;
+}
+
+main .but button a{
+    margin: 20px;
+    color: black;
+}
+
+.but button:hover{
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.but button:hover a{
+    color: white;
+}

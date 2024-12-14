@@ -1,0 +1,36 @@
+.us{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+
+.us p{
+    float: left;
+    width: 500px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.us button{
+    background-color: #333;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.us button a:hover{
+    color: orangered;
+    background-color: #333;
+}
+
+.us img{
+    box-shadow: 5px 5px 10px white;
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 40px;
+}

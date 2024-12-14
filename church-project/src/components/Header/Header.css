@@ -1,0 +1,45 @@
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding-top: 5px;
+    color: white;
+    padding-right: 15px;
+    font: bold;
+}
+
+span{
+    color: chocolate;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.nav h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+}
+
+span{
+    color: chocolate;
+}
+
+.nav ul li a:hover{
+    text-decoration: px solid chocolate;
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 5px;
+}
